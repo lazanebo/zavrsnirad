@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dušan Lučić - Završni Rad</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap News Template - Free HTML Templates" name="keywords">
+        <meta content="Bootstrap News Template - Free HTML Templates" name="description">
+
+        <!-- Favicon -->
+        <link href="img/faviicon.png" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet"> 
+		
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+		
+<!--Stylesheet-->
+<style media="screen">
+    	*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   
+}
+.container1{
+    background-color: #ffffff;
+    padding: 30px 30px;   
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 25px 25px 30px rgba(0,0,0,0.15);
+}
+.container1 h1{
+	background: #024b94;
+	color: white;
+	text-align: center;
+	font-size: 23px;
+	letter-spacing: 1px;
+	margin-top: -30px;
+	margin-left: -30px;
+	margin-right: -30px;
+	margin-bottom: 40px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.row span{
+    font-weight: 500;
+}
+input[type="range"]{
+    width: 70%;
+    height: 3.5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #dcdcdc;
+    border-radius: 3px;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #1c1c1c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#result{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #0be881;
+}
+#kategorija{
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.display{
+box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+    </style>
+		
+		
+		
+    </head>
+
+    <body>
+	
+	<!-- Top Bar Start -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="tb-contact">
+                            <p><i class="fa fa-envelope"></i>dusanlucic09@gmail.com</p>
+                            <p><i class="fa fa-phone-alt"></i>+381 66083666</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tb-menu">
+                            <a href="">O meni</a>
+                            <a href="https://vtsns.edu.rs/">VTŠ Novi Sad</a>
+                            <a href="Kontakt.html">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar Start -->
+        
+        <!-- Brand Start -->
+        <div class="brand">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="b-logo">
+                            <a href="index.html">
+                                <img src="img/logo2.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="b-ads">
+                            <a href="https://alexgim.rs/">
+                               
+                            </a>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+        <!-- Brand End -->
+
+        <!-- Nav Bar Start -->
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IGRE</a>
+                                <div class="dropdown-menu">
+                                    <a href="Fudbal.html" class="dropdown-item">Fudbal</a>
+                                    <a href="Kosarka.html" class="dropdown-item">Košarka</a>
+									<a href="Rukomet.html" class="dropdown-item">Rukomet</a>
+									<a href="Odbojka.html" class="dropdown-item">Odbojka</a>
+									<a href="Tenis.html" class="dropdown-item">Tenis</a>
+                                </div>								
+                            </div>
+							  <div class="nav-item dropdown">
+							 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">NBA</a>
+								 <div class="dropdown-menu">
+                                    <a href="Lakers.html" class="dropdown-item">Lakers</a>
+                                    <a href="Boston.html" class="dropdown-item">Boston</a>
+									<a href="Chichago.html" class="dropdown-item">Chichago</a>
+                                </div>
+								</div>
+							
+							<a href="dodatak.html" class="nav-item nav-link">Dodatak</a>
+                            <a href="Kontakt.html" class="nav-item nav-link">Kontakt</a>
+							<a href="O meni.html" class="nav-item nav-link">O meni</a>
+                        </div>
+                        <div class="social ml-auto">
+                            <a href="https://www.tweter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">BMI kalkulator</li>
+                </ul>
+            </div>
+        </div>
+	
+      
+	 <div class="container">
+			<h1>BMI Kalkulator - Dušan Lučić </h1>
+			<div class="display">
+				        <p id="rezultat">20.0</p>
+				        <p id="kategorija">Normalna težina</p>
+			</div>
+        <div class="row">
+            <input type="range" min="20" max="200" value="20" id="tezina" oninput="calculate()">
+            <span id="tezina-val">20 kg (min)</span>
+        </div>
+        <div class="row">
+            <input type="range" min="100" max="250" value="100" id="visina" oninput="calculate()">
+            <span id="visina-val">100 cm (min)</span>
+        </div>
+
+
+    </div>
+
+    <!--Script-->
+    <script type="text/javascript">
+function calculate(){
+    var bmi;
+    var rezultat = document.getElementById("rezultat");
+
+    var tezina = parseInt(document.getElementById("tezina").value);
+    document.getElementById("tezina-val").textContent = tezina + " kg";
+
+    var visina = parseInt(document.getElementById("visina").value);
+    document.getElementById("visina-val").textContent = visina + " cm";
+
+    bmi = (tezina / Math.pow( (visina/100), 2 )).toFixed(1);
+    rezultat.textContent = bmi;
+
+    if(bmi < 18.5){
+        kategorija = "MRŠAV 😒";
+        rezultat.style.color = "#ffc44d";
+    }
+    else if( bmi >= 18.5 && bmi <= 24.9 ){
+        kategorija = "NORMALNA TEŽINA	😍";
+        rezultat.style.color = "#0be881";
+    }
+    else if( bmi >= 25 && bmi <= 29.9 ){
+        kategorija = "DEBEO 😮";
+        rezultat.style.color = "#ff884d";
+    }
+    else{
+        kategorija = "GOJAZAN 😱";
+        rezultat.style.color = "#ff5e57";
+    }
+    document.getElementById("kategorija").textContent = kategorija;
+}
+    </script>   
+	  
+	  
+	   <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                         <p>&copy; <a href="https://vtsns.edu.rs/">"VTŠ Novi Sad"</a></p>
+                    </div>
+
+                    <div class="col-md-6 template-by">
+                        <p>Završni rad: <a href="O meni.html">Dušan Lučić</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+	  
+       
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
